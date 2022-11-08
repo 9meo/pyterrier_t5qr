@@ -64,7 +64,7 @@ class T5QR(TransformerBase):
         max_input_length = 512
         it = range(0, len(queries), self.batch_size)
         if self.verbose:
-            it = pt.tqdm(it, desc='monoQA', unit='batches')
+            it = pt.tqdm(it, desc='T5QR', unit='batches')
         for start_idx in it:
             rng = slice(start_idx, start_idx+self.batch_size) # same as start_idx:start_idx+self.batch_size
             enc = self.tokenizer.batch_encode_plus([f'{d} ||| {q}' for q, d in zip(queries[rng], texts[rng])], return_tensors='pt', padding='longest')
