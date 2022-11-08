@@ -34,7 +34,7 @@ monoQA has the following options:
 ## Examples
 
 Checkout out the notebooks, even on Colab: 
-    - Vaswani [[https://github.com/9meo/pyterrier_t5qr/blob/main/pyterrier_t5qr_vaswani.ipynb)] [[Colab](https://colab.research.google.com/github/9meo/pyterrier_t5qr/blob/main/pyterrier_t5qr_vaswani.ipynb)]
+    - Vaswani [[Github]([https://github.com/9meo/pyterrier_t5qr/blob/main/pyterrier_t5qr_vaswani.ipynb)] [[Colab](https://colab.research.google.com/github/9meo/pyterrier_t5qr/blob/main/pyterrier_t5qr_vaswani.ipynb)]
     
 ## Implementation Details
 
